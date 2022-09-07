@@ -9,14 +9,14 @@ const getProvider = (mainnet = false) => {
 }
 
 const provider = getProvider(false)
-console.log(`Provider`, await provider.getNetwork())
+// console.log(`Provider`, await provider.getNetwork())
 
 const generateWallet = () => {
   // address 0xd94EBF4dB497289982424543D39aABAAC67DEcA6
   // privateKey 0x082725cc90c686ad95ad31ddb90794bd69a9dd4cbd9a65abef81b1c3a790fa77
   // mnemonic.phrase outdoor air rib judge curve wood eyebrow try grab render pistol sail
   const wallet = ethers.Wallet.createRandom()
-  console.log(`address`, wallet.address)
+  // console.log(`address`, wallet.address)
   // console.log(`privateKey`, wallet.privateKey)
   // console.log(`mnemonic.phrase`, wallet.mnemonic.phrase)
 }

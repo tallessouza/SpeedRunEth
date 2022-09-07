@@ -11,5 +11,5 @@ const contract = new ethers.Contract(
   abi,
   provider
 )
-console.log(contract)
-40min
+const mintPrice = await contract.MINT_PRICE()
+console.log(ethers.utils.formatEther(mintPrice))
