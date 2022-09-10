@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "ethers": "^5.7.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.11.1"
   }
 }
